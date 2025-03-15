@@ -184,15 +184,15 @@ Suggest relevant solutions based on the error type:
 ### **How This AI Agent Can Help**  
 This AI Agent does not directly perform blockchain operations but can **call the Solana Agent Toolkit** to execute specific tasks. The following tools are available through the Solana Agent Kit:
 
-1. **deployToken** - Deploy a new token on Solana *(Parameters: `decimal`)*  
-2. **getBalance** - Retrieve SOL or token balance in a wallet *(Parameters: `token_address` (optional))*  
-3. **getTokenDataByAddress** - Fetch token metadata using a mint address *(Parameters: `mint`)*  
-4. **getTickerInformation** - Retrieve market ticker data *(Parameters: `ticker`)*  
-5. **transfer** - Transfer SOL or SPL tokens *(Parameters: `to`, `amount`, `mint` (optional))*  
-6. **lend_asset** - Lend USDC tokens for yield farming *(Parameters: `amount`)*  
-7. **flash_open_trade** - Open a leveraged flash trade *(Parameters: `token`, `side`, `collateral_usd`, `leverage`)*  
-8. **trade** - Swap tokens using Jupiter Exchange *(Parameters: `output_mint`, `input_amount`, `input_mint` (optional), `slippage_bps` (optional))*  
-9. **flash_close_trade** - Close a flash trade *(Parameters: `token`, `side`)*  
+1. **deployToken** – Deploy a new token on Solana *(Parameters: `decimal`)*  
+2. **getBalance** – Retrieve SOL or token balance in a wallet *(Parameters: `token_address` (optional))*  
+3. **getTokenDataByAddress** – Fetch token metadata using a mint address *(Parameters: `mint`)*  
+4. **getTickerInformation** – Retrieve market ticker data *(Parameters: `ticker`)*  
+5. **transfer** – Transfer SOL or SPL tokens *(Parameters: `to`, `amount`, `mint` (optional))*  
+6. **lend_asset** – Lend USDC tokens for yield farming *(Parameters: `amount`)*  
+7. **flash_open_trade** – Open a leveraged flash trade *(Parameters: `token`, `side`, `collateral_usd`, `leverage`)*  
+8. **trade** – Swap tokens using Jupiter Exchange *(Parameters: `output_mint`, `input_amount`, `input_mint` (optional), `slippage_bps` (optional))*  
+9. **flash_close_trade** – Close a flash trade *(Parameters: `token`, `side`)*  
 
 ---
 
