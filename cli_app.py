@@ -20,6 +20,7 @@ loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 load_dotenv()
 solana_agent = SolanaAgentKit(
+    # first get your private key from environment variable
     private_key=os.getenv("SOL_PRIVATE_KEY"),
     rpc_url="https://api.devnet.solana.com",
 )

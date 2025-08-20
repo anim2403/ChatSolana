@@ -5,3 +5,4 @@ langchain_community
 agentipy
 streamlit
 python-dotenv
+os

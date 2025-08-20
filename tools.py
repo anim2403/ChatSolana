@@ -9,7 +9,7 @@ async def deployToken(
     decimal: int,
 ) -> Dict[str, str]:
     """
-    Simulates deploying a fungible token on the Solana blockchain.
+    Simulates deploying a fungible token on the Solana blockchain using agentipy.
     """
     coroutine = solana_agent.deploy_token(decimal)
     output = await asyncio.gather(coroutine)

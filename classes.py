@@ -55,7 +55,7 @@ class toolsReqd(BaseModel):
     )
 
     transfer: Literal["Required", "Not Required"] = Field(
-        """Transfers SOL or SPL tokens to a recipient.
+        """Transfers SOL or SPL tokens to a recipient to whom the user wants to send the tokens.
 
         It requires the following parameters:
         - `to`: The recipient's public key (required).
